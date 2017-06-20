@@ -14,6 +14,7 @@
 		709A1CF91EF845BF00665419 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 709A1CF71EF845BF00665419 /* LaunchScreen.storyboard */; };
 		709A1D041EF845BF00665419 /* College_Profile_BuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709A1D031EF845BF00665419 /* College_Profile_BuilderTests.swift */; };
 		709A1D0F1EF845BF00665419 /* College_Profile_BuilderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709A1D0E1EF845BF00665419 /* College_Profile_BuilderUITests.swift */; };
+		709A1D1D1EF847F900665419 /* College.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709A1D1C1EF847F900665419 /* College.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		709A1D0A1EF845BF00665419 /* College Profile BuilderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "College Profile BuilderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		709A1D0E1EF845BF00665419 /* College_Profile_BuilderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = College_Profile_BuilderUITests.swift; sourceTree = "<group>"; };
 		709A1D101EF845BF00665419 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		709A1D1C1EF847F900665419 /* College.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = College.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				709A1CEE1EF845BF00665419 /* AppDelegate.swift */,
 				709A1CF01EF845BF00665419 /* ViewController.swift */,
 				709A1CF21EF845BF00665419 /* Main.storyboard */,
+				709A1D1C1EF847F900665419 /* College.swift */,
 				709A1CF51EF845BF00665419 /* Assets.xcassets */,
 				709A1CF71EF845BF00665419 /* LaunchScreen.storyboard */,
 				709A1CFA1EF845BF00665419 /* Info.plist */,
@@ -193,6 +196,7 @@
 				TargetAttributes = {
 					709A1CEA1EF845BF00665419 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 5VKGNBRP89;
 						ProvisioningStyle = Automatic;
 					};
 					709A1CFE1EF845BF00665419 = {
@@ -261,6 +265,7 @@
 			files = (
 				709A1CF11EF845BF00665419 /* ViewController.swift in Sources */,
 				709A1CEF1EF845BF00665419 /* AppDelegate.swift in Sources */,
+				709A1D1D1EF847F900665419 /* College.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +419,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5VKGNBRP89;
 				INFOPLIST_FILE = "College Profile Builder/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Nebula.College-Profile-Builder";
@@ -426,6 +432,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5VKGNBRP89;
 				INFOPLIST_FILE = "College Profile Builder/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Nebula.College-Profile-Builder";
