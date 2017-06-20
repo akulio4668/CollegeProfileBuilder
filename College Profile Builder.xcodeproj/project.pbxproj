@@ -15,6 +15,7 @@
 		709A1D041EF845BF00665419 /* College_Profile_BuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709A1D031EF845BF00665419 /* College_Profile_BuilderTests.swift */; };
 		709A1D0F1EF845BF00665419 /* College_Profile_BuilderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709A1D0E1EF845BF00665419 /* College_Profile_BuilderUITests.swift */; };
 		709A1D1D1EF847F900665419 /* College.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709A1D1C1EF847F900665419 /* College.swift */; };
+		709A1D1F1EF8AB7A00665419 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709A1D1E1EF8AB7A00665419 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		709A1D0E1EF845BF00665419 /* College_Profile_BuilderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = College_Profile_BuilderUITests.swift; sourceTree = "<group>"; };
 		709A1D101EF845BF00665419 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		709A1D1C1EF847F900665419 /* College.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = College.swift; sourceTree = "<group>"; };
+		709A1D1E1EF8AB7A00665419 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				709A1CEE1EF845BF00665419 /* AppDelegate.swift */,
 				709A1CF01EF845BF00665419 /* ViewController.swift */,
 				709A1CF21EF845BF00665419 /* Main.storyboard */,
+				709A1D1E1EF8AB7A00665419 /* DetailViewController.swift */,
 				709A1D1C1EF847F900665419 /* College.swift */,
 				709A1CF51EF845BF00665419 /* Assets.xcassets */,
 				709A1CF71EF845BF00665419 /* LaunchScreen.storyboard */,
@@ -266,6 +269,7 @@
 				709A1CF11EF845BF00665419 /* ViewController.swift in Sources */,
 				709A1CEF1EF845BF00665419 /* AppDelegate.swift in Sources */,
 				709A1D1D1EF847F900665419 /* College.swift in Sources */,
+				709A1D1F1EF8AB7A00665419 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

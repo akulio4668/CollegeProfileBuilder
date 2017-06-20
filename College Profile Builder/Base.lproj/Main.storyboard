@@ -9,10 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--College Profile Builder-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="College_Profile_Builder" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="College Profile Builder" id="BYZ-38-t0r" customClass="ViewController" customModule="College_Profile_Builder" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -48,6 +48,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="mJ2-De-Wzh" kind="show" id="Dgr-5r-bRJ"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
@@ -72,6 +75,49 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1072.8" y="138.98050974512745"/>
+        </scene>
+        <!--College Details-->
+        <scene sceneID="Jn4-0T-Pda">
+            <objects>
+                <viewController title="College Details" id="mJ2-De-Wzh" customClass="DetailViewController" customModule="College_Profile_Builder" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jXh-J7-ytE"/>
+                        <viewControllerLayoutGuide type="bottom" id="YmL-Sr-0W9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gnm-wB-kYW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2qG-jV-qyp">
+                                <rect key="frame" x="112" y="164" width="150" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Gsm-FK-fkg"/>
+                                    <constraint firstAttribute="width" constant="150" id="wOa-PK-VxA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Aym-Ay-Lfr">
+                                <rect key="frame" x="67" y="367" width="240" height="128"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Aym-Ay-Lfr" firstAttribute="centerX" secondItem="gnm-wB-kYW" secondAttribute="centerX" id="8P2-gd-hte"/>
+                            <constraint firstItem="YmL-Sr-0W9" firstAttribute="top" secondItem="Aym-Ay-Lfr" secondAttribute="bottom" constant="200" id="NhD-Fv-KKB"/>
+                            <constraint firstItem="2qG-jV-qyp" firstAttribute="centerX" secondItem="gnm-wB-kYW" secondAttribute="centerX" id="g2a-ey-5Mw"/>
+                            <constraint firstItem="2qG-jV-qyp" firstAttribute="top" secondItem="jXh-J7-ytE" secondAttribute="bottom" constant="100" id="gTq-dw-hW7"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="detailImageView" destination="Aym-Ay-Lfr" id="czd-Th-Ctf"/>
+                        <outlet property="detailLabel" destination="2qG-jV-qyp" id="osS-P2-bRw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W88-Gx-Nbn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1844" y="139"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="htS-Dc-A6u">

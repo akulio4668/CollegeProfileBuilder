@@ -31,10 +31,12 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     {
         let cell = collegeTableView.dequeueReusableCell(withIdentifier: "prototypeCell", for: indexPath)
         cell.textLabel!.text = collegeArray[indexPath.row].name
-        cell.detailTextLabel!.text = collegeArray[indexPath.row].name
+        cell.detailTextLabel!.text = collegeArray[indexPath.row].location
         
         return cell
     }
+    
+    
     
 }
 
