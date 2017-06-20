@@ -36,7 +36,11 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         return cell
     }
     
-    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?)
+    {
+        let detailController = segue.destination as! DetailViewController
+        detailController.college = collegeArray[(collegeTableView.indexPathForSelectedRow?.row)!]
+    }
     
 }
 
